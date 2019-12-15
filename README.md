@@ -6,3 +6,4 @@ Bamazon is a command line node application that allows users to view and purchas
 * inquirer
 
 ## Video Demonstration
+https://drive.google.com/file/d/16lixzO8VHZAWqUfo7TBSJgbkLWAZsUzA/view?usp=sharing
