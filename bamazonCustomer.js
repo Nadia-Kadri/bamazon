@@ -91,8 +91,10 @@ function updateQuantity() {
 }
 
 function fulfillOrder() {
-  let orderTotal = chosenItem.chosen_quantity * chosenItem.price;
-  console.log(`Your order for ${chosenItem.product_name} has been received! Your order total is: $${orderTotal}`);
+	let orderTotal = chosenItem.chosen_quantity * chosenItem.price;
+	let orderTotalRounded = Math.round(orderTotal * 100) / 100;
+	
+  console.log(`Your order for ${chosenItem.product_name} has been received! Your order total is: $${orderTotalRounded}`);
 
   inquirer
     .prompt([
