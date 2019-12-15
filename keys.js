@@ -1,0 +1,1 @@
+exports.password = process.env.password
